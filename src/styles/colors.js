@@ -1,0 +1,15 @@
+export const colors = {
+  WHITE: '#fff',  
+  TRANSPARENT_WHITE: 'rgba(255,255,255,0.4)',
+  BLACK: '#000',
+  PRIMARY_COLOR: '#1e645a',
+  SECONDARY_COLOR: '#148278',
+  GREY_LIGHT: '#999',
+  GREY: '#777',
+  PLACEHOLDER_COLOR: '#666',
+  SECONDARY_TEXT_COLOR: '#B4D2CD',
+  BACKGROUND_MODAL: 'rgba(0,0,0,0.2)',
+  RED: 'red',
+  BACKGROUND_SHADOW: '#fafafa',
+  BACKGROUND_INTERNAL: '#ecf0f1',
+}
