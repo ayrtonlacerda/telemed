@@ -15,8 +15,7 @@ export const Icon = styled.Image`
   width: 25;
   height: 25;
   color: ${colors.WHITE};
-  margin-right: ${metrics.margin_larger * 1.5};
- 
+  margin-right: ${metrics.margin_larger * 1.5}; 
 `
 
 export const TextInput = styled.TextInput.attrs({

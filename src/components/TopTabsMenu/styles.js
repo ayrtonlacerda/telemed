@@ -23,3 +23,11 @@ export const TextButton = styled.Text`
   font-size: ${fonts.SMALL};
   color: ${props => (props.active ? colors.WHITE : colors.TRANSPARENT_WHITE)};
 `;
+
+export const Triangle = styled.Image`
+  position: absolute;
+  top: 55;
+  width: 25;
+  height: 25;
+  color: ${colors.PRIMARY_COLOR};
+`

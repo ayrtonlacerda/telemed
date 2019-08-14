@@ -27,7 +27,12 @@ class AuthScreen extends Component {
         <Contain>          
             <ContainImage>
               <ImageLogo source={Imgs.LogoGreen} resizeMode="contain" />
-              <Text>Entre com seu e-mail e senha</Text>
+              {
+                viewLogin
+                  ? <Text>Entre com seu e-mail e senha</Text>
+                  : <Text>Registre-se na Arquimed é rapido e gratuito</Text>
+              }
+              
             </ContainImage>
             <Main>
               <TopTabsMenu 
