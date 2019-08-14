@@ -1,7 +1,14 @@
 // full component
 
 import React, { Component } from 'react';
-import { Container } from './styles';
+import {
+  Container,
+  SelectPhoto,
+  TextCamera,
+  Icon,
+} from './styles';
+
+import { Imgs } from '../../../assets';
 
 import { Input, Button } from '../../../components';
 
@@ -15,16 +22,50 @@ class Register extends Component {
     const { email, password } = this.state;
     return (
       <Container>
-        <Input 
-          nameIcon="person-outline"
-          placeholder="example@example.com"
+        <SelectPhoto>
+          <Icon source={Imgs.CameraImg} resizeMode="contain" />
+          <TextCamera>Adicionar Foto</TextCamera>
+        </SelectPhoto>
+        <Input
+          nameIcon="account-outline"
+          placeholder="nome"
           autoCorrect={false}
           autoCapitalize="none"
-          selectionColor="white"          
+          selectionColor="white"
           value={email}
           onChangeText={text => this.setState({ email: text })}
         />
-        <Input 
+        <Input
+          nameIcon="mail-outline"
+          placeholder="e-mail"
+          secureTextEntry
+          autoCorrect={false}
+          autoCapitalize="none"
+          selectionColor="white"
+          value={password}
+          onChangeText={text => this.setState({ password: text })}
+        />
+        <Input
+          nameIcon="cellphone"
+          placeholder="telefone"
+          secureTextEntry
+          autoCorrect={false}
+          autoCapitalize="none"
+          selectionColor="white"
+          value={password}
+          onChangeText={text => this.setState({ password: text })}
+        />
+        <Input
+          nameIcon="card-text-outline"
+          placeholder="cpf"
+          secureTextEntry
+          autoCorrect={false}
+          autoCapitalize="none"
+          selectionColor="white"
+          value={password}
+          onChangeText={text => this.setState({ password: text })}
+        />
+        <Input
           nameIcon="lock-outline"
           placeholder="••••••••••"
           secureTextEntry
@@ -34,8 +75,8 @@ class Register extends Component {
           value={password}
           onChangeText={text => this.setState({ password: text })}
         />
-        <Input 
-          nameIcon="lock-outline"
+        <Input
+          nameIcon="city"
           placeholder="••••••••••"
           secureTextEntry
           autoCorrect={false}
@@ -44,37 +85,7 @@ class Register extends Component {
           value={password}
           onChangeText={text => this.setState({ password: text })}
         />
-        <Input 
-          nameIcon="lock-outline"
-          placeholder="••••••••••"
-          secureTextEntry
-          autoCorrect={false}
-          autoCapitalize="none"
-          selectionColor="white"
-          value={password}
-          onChangeText={text => this.setState({ password: text })}
-        />
-        <Input 
-          nameIcon="lock-outline"
-          placeholder="••••••••••"
-          secureTextEntry
-          autoCorrect={false}
-          autoCapitalize="none"
-          selectionColor="white"
-          value={password}
-          onChangeText={text => this.setState({ password: text })}
-        />
-        <Input 
-          nameIcon="lock-outline"
-          placeholder="••••••••••"
-          secureTextEntry
-          autoCorrect={false}
-          autoCapitalize="none"
-          selectionColor="white"
-          value={password}
-          onChangeText={text => this.setState({ password: text })}
-        />
-        <Button 
+        <Button
           description="CADASTRAR"
         />
       </Container>

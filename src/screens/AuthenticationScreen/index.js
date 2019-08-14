@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StatusBar } from 'react-native';
+import { ScrollView } from 'react-native';
 
 import {
   Contain,
@@ -23,26 +23,25 @@ class AuthScreen extends Component {
   render() {
     const { viewLogin } = this.state;
     return (
-      <Contain>
-        <StatusBar color="#fff" stbarStyles="dark-content" />
-        <ContainImage>
-          <ImageLogo source={Imgs.LogoGreen} resizeMode="contain" />
-          <Text>Entre com seu e-mail e senha</Text>
-        </ContainImage>
-        <Main>
-          <TopTabsMenu 
-            active={viewLogin}
-            onPressFunc={() => this.setState({ viewLogin: !viewLogin })}
-          />
-          {
-            viewLogin
-              ? <Login />
-              : <Register />
-          }
-         
-        </Main>
-      </Contain>
-
+      <ScrollView centerContent showsHorizontalScrollIndicator={false}>
+        <Contain>          
+            <ContainImage>
+              <ImageLogo source={Imgs.LogoGreen} resizeMode="contain" />
+              <Text>Entre com seu e-mail e senha</Text>
+            </ContainImage>
+            <Main>
+              <TopTabsMenu 
+                active={viewLogin}
+                onPressFunc={() => this.setState({ viewLogin: !viewLogin })}
+              />
+              {
+                viewLogin
+                  ? <Login />
+                  : <Register />
+              }          
+            </Main>                
+        </Contain>
+      </ScrollView> 
     );
   }
 }

@@ -4,7 +4,7 @@ export const colors = {
   BLACK: '#000',
   PRIMARY_COLOR: '#1e645a',
   SECONDARY_COLOR: '#148278',
-  GREY_LIGHT: '#999',
+  GREY_LIGHT: '#CCC',
   GREY: '#777',
   PLACEHOLDER_COLOR: '#666',
   SECONDARY_TEXT_COLOR: '#B4D2CD',

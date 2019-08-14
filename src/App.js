@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
 import { SafeAreaView } from 'react-navigation';
 import { AppNavigator, NavigationService } from './routes';
+
+console.disableYellowBox = true;
 
 export default class App extends Component {
   render() {

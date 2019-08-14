@@ -5,7 +5,7 @@ import {
   TextInput,
   CunstonIcons
 } from './styles';
-import Icons from 'react-native-vector-icons/MaterialIcons';
+import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const Input = (props) => {
   const { image, nameIcon } = props;
@@ -25,3 +25,9 @@ const Input = (props) => {
 }
 
 export { Input }
+
+/* 
+se caso receber  image ele usa a
+ imagem passada caso contrario o icone,
+ contudo tem que passar o name na biblioteca
+*/
