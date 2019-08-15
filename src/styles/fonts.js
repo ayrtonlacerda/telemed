@@ -3,5 +3,4 @@ export const fonts = {
   EXTRA_SMALL: 12,
   MEDIUM: 16,
   BIG: 20,
-}
-
+};

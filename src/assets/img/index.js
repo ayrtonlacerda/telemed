@@ -12,6 +12,6 @@ const Imgs = {
   PasswordReset,
   Terms,
   Triangle,
-}
+};
 
 export { Imgs };

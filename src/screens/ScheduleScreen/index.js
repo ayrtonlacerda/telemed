@@ -4,15 +4,12 @@ import { Container, Title } from './styles';
 import { Header } from '../../components';
 
 class ScheduleScreen extends Component {
-  state = {}
+  state = {};
 
   render() {
     return (
       <Container>
-        <Header
-          title="Agendamento"
-          arrowBack
-        />
+        <Header title="Agendamento" arrowBack />
         <Title>Schedule</Title>
       </Container>
     );

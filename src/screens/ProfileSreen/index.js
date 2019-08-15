@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import { Container, Title } from './styles';
 
 class ProfileScreen extends Component {
-  state = {}
+  state = {};
 
   render() {
     return (

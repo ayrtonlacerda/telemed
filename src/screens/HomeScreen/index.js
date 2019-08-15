@@ -3,14 +3,10 @@ import React, { Component } from 'react';
 import { StatusBar } from 'react-native';
 import { colors } from '../../styles';
 
-import {
-  Container,
-  MainContainer,
-  ImageContainer,
-} from './styles';
+import { Container, MainContainer, ImageContainer } from './styles';
 
 class HomeScreen extends Component {
-  state = {}
+  state = {};
 
   render() {
     return (

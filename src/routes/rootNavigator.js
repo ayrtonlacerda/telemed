@@ -10,5 +10,5 @@ const Navigator = createSwitchNavigator(
   {
     initialRouteName: 'MainNavigator',
   }
-)
+);
 export const AppNavigator = createAppContainer(Navigator);

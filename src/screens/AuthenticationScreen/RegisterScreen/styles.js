@@ -29,9 +29,9 @@ export const TextCamera = styled.Text`
   color: ${colors.SECONDARY_COLOR};
 `;
 
-export const Icon = styled.Image` 
+export const Icon = styled.Image`
   width: 45;
-  height: 45; 
+  height: 45;
   color: ${colors.SECONDARY_COLOR};
   margin-bottom: 3;
 `;

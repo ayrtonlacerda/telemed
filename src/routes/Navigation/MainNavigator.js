@@ -1,13 +1,8 @@
 import React from 'react';
-import { createBottomTabNavigator } from "react-navigation";
+import { createBottomTabNavigator } from 'react-navigation';
 import { colors } from '../../styles';
 import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
-import {
-  HomeScreen,
-  SearchScreen,
-  ProfileScreen,
-  ScheduleScreen,
-} from '../../screens';
+import { HomeScreen, SearchScreen, ProfileScreen, ScheduleScreen } from '../../screens';
 
 const MainNavigator = createBottomTabNavigator(
   {
@@ -55,7 +50,7 @@ const MainNavigator = createBottomTabNavigator(
         }
         // You can return any component that you like here!
         return <Icons name={iconName} size={30} color={tintColor} />;
-      }
+      },
     }),
     tabBarOptions: {
       activeTintColor: colors.PRIMARY_COLOR,

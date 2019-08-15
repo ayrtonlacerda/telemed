@@ -1,12 +1,7 @@
 // full component
 
 import React, { Component } from 'react';
-import {
-  Container,
-  SelectPhoto,
-  TextCamera,
-  Icon,
-} from './styles';
+import { Container, SelectPhoto, TextCamera, Icon } from './styles';
 
 import { Imgs } from '../../../assets';
 
@@ -16,7 +11,7 @@ class Register extends Component {
   state = {
     email: null,
     password: null,
-  }
+  };
 
   render() {
     const { email, password } = this.state;
@@ -85,9 +80,7 @@ class Register extends Component {
           value={password}
           onChangeText={text => this.setState({ password: text })}
         />
-        <Button
-          description="CADASTRAR"
-        />
+        <Button description="CADASTRAR" />
       </Container>
     );
   }

@@ -7,12 +7,11 @@ console.disableYellowBox = true;
 export default class App extends Component {
   render() {
     return (
-        <AppNavigator
-          ref={navigatorRef => {
-            NavigationService.setTopLevelNavigator(navigatorRef);
-          }}
-        />
+      <AppNavigator
+        ref={navigatorRef => {
+          NavigationService.setTopLevelNavigator(navigatorRef);
+        }}
+      />
     );
   }
 }
-

@@ -10,23 +10,23 @@ class Login extends Component {
   state = {
     email: null,
     password: null,
-  }
+  };
 
   render() {
     const { email, password } = this.state;
     const { navigation } = this.props;
     return (
       <Container>
-        <Input 
+        <Input
           nameIcon="person-outline"
           placeholder="example@example.com"
           autoCorrect={false}
           autoCapitalize="none"
-          selectionColor="white"          
+          selectionColor="white"
           value={email}
           onChangeText={text => this.setState({ email: text })}
         />
-        <Input 
+        <Input
           nameIcon="lock-outline"
           placeholder="••••••••••"
           secureTextEntry
@@ -36,12 +36,8 @@ class Login extends Component {
           value={password}
           onChangeText={text => this.setState({ password: text })}
         />
-        <Button
-          press={() => navigation.navigate('MainNavigator')}
-          description="ENTRAR"
-        />
+        <Button press={() => navigation.navigate('MainNavigator')} description="ENTRAR" />
       </Container>
-
     );
   }
 }

@@ -11,7 +11,7 @@ export const Container = styled.View`
   justify-content: space-between;
   padding-left: ${metrics.margin_larger};
   padding-right: ${metrics.margin_larger};
-  background-color: ${colors.SECONDARY_COLOR}
+  background-color: ${colors.SECONDARY_COLOR};
 `;
 
 export const Title = styled.Text`
@@ -24,5 +24,4 @@ export const SlapHole = styled.View`
   height: 35;
 `;
 
-export const ArrowBack = styled(Icons)`
-`
+export const ArrowBack = styled(Icons)``;
