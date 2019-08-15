@@ -1,6 +1,0 @@
-framework module Pods_telemedTests {
-  umbrella header "Pods-telemedTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
