@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DC2D6F302AA6B3E3FDC97EE52E48C9B /* Pods-telemed-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D1B17D38FA2CE802A3085A6B608B9B8 /* Pods-telemed-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		164268BC47AB1E9717A58D5466BC045E /* Pods-telemed-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EEFF198A52278185E324798BA60DD7 /* Pods-telemed-tvOSTests-dummy.m */; };
+		3FCCE7BDB3979456500A43C368F7F43B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */; };
+		6A5EFA903F37F85ECD266E16CD9F1009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */; };
+		737AB025EE0040DDDE100429286E3AF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */; };
+		8D5991C0AFFE5BF1B5EC3D716895BB5A /* Pods-telemed-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8EC759310AE86D95C6C626E33E7B7 /* Pods-telemed-tvOS-dummy.m */; };
+		8FB5536D7E8F69C20B0984B8B65C4197 /* Pods-telemed-tvOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B4853FAB64F014CDF477622DA3E7E5E /* Pods-telemed-tvOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBBF788788049BDFB2653E5B3024CB89 /* Pods-telemed-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 781D7C414743234B0E515407381B5FA9 /* Pods-telemed-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC76766AD944330893A90D4FD6695044 /* Pods-telemedTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6FADB2F35A25AB587ADFAE5A9C92BF /* Pods-telemedTests-dummy.m */; };
+		CD725998C9567A627F9263415FCC99D5 /* Pods-telemed-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CE659813CC8E2F814E2EB9007CDDA2 /* Pods-telemed-dummy.m */; };
+		DAD379F035AB569994C7E1BFA6E8537A /* Pods-telemedTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C26700C67C5AD859640E44B9C109AD04 /* Pods-telemedTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB214D30EC0183BF6CBF032A896E5434 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CDF071959130E17A2A7B63BE786EA41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A82500D9030B56B1F3B95BE2437D2925;
+			remoteInfo = "Pods-telemed-tvOS";
+		};
+		A6BC3E5153525E2A154367D14F6B1EBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B14A33B73B089C832BCA4BE6E1ABB6F;
+			remoteInfo = "Pods-telemed";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B4853FAB64F014CDF477622DA3E7E5E /* Pods-telemed-tvOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-telemed-tvOSTests-umbrella.h"; sourceTree = "<group>"; };
+		0E3E18413BEBB62E8CE5A35BEF4C5421 /* Pods-telemed-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-telemed-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2713C3368E4618C026CC56247E639BBA /* Pods-telemed-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-telemed-tvOS-Info.plist"; sourceTree = "<group>"; };
+		2B84A8941DD65A5A12243A42AE44F9C3 /* Pods-telemed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-telemed.debug.xcconfig"; sourceTree = "<group>"; };
+		2F13A2F56FAC6B060DB002364203FE79 /* Pods_telemed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_telemed.framework; path = "Pods-telemed.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1B17D38FA2CE802A3085A6B608B9B8 /* Pods-telemed-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-telemed-umbrella.h"; sourceTree = "<group>"; };
+		409BC08D5325516E3D678969CD4F4286 /* Pods-telemed-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-telemed-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43EEFF198A52278185E324798BA60DD7 /* Pods-telemed-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-telemed-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		453EA3F4998D4152CF5E487CF7B232B5 /* Pods-telemedTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-telemedTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		49AEFCEA352DAE1F4D302D2784125047 /* Pods_telemedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_telemedTests.framework; path = "Pods-telemedTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC8EC759310AE86D95C6C626E33E7B7 /* Pods-telemed-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-telemed-tvOS-dummy.m"; sourceTree = "<group>"; };
+		51D3168C422743693B99BACB56F731A4 /* Pods-telemed-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-telemed-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		57781293CDEFB55B1E9C998084E437E1 /* Pods-telemed-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-telemed-acknowledgements.plist"; sourceTree = "<group>"; };
+		63C2AD1A444460D12D4FC6E65E1F8A24 /* Pods-telemed-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-telemed-Info.plist"; sourceTree = "<group>"; };
+		688F5CA5803A2A9655BD25867F4FDDAB /* Pods-telemedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-telemedTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D396D6E1E9FBDD8E13BD0731FE02348 /* Pods-telemed-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-telemed-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		76538B1071B21EEC80CFABF8EDD28AB0 /* Pods-telemed-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-telemed-tvOS.modulemap"; sourceTree = "<group>"; };
+		781D7C414743234B0E515407381B5FA9 /* Pods-telemed-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-telemed-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		85EACEA2A36E021FD4847F81E48D89D0 /* Pods-telemed.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-telemed.modulemap"; sourceTree = "<group>"; };
+		8F93A4C5E1F770EFC9E59C321118B879 /* Pods-telemed-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-telemed-acknowledgements.markdown"; sourceTree = "<group>"; };
+		94D95A9BDBA234E3768059BC857396D6 /* Pods-telemed-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-telemed-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A27FD13226F20CF0B7429AAEF46A737F /* Pods-telemedTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-telemedTests-Info.plist"; sourceTree = "<group>"; };
+		A42FE112ACBF82949F3FCF423121EA80 /* Pods-telemedTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-telemedTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4B878169A80B9152728A472D31AD570 /* Pods-telemed-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-telemed-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD10B0BDAB844A92948C6EA02451C591 /* Pods_telemed_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_telemed_tvOS.framework; path = "Pods-telemed-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7136131270EAD0BEB98CDAC58F7ACD /* Pods-telemedTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-telemedTests.modulemap"; sourceTree = "<group>"; };
+		B70DE0DB68B2D794585ED37B7EDF9D4D /* Pods_telemed_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_telemed_tvOSTests.framework; path = "Pods-telemed-tvOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BC2812FEB41F4BE3C465B6FE0149CF66 /* Pods-telemed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-telemed.release.xcconfig"; sourceTree = "<group>"; };
+		C26700C67C5AD859640E44B9C109AD04 /* Pods-telemedTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-telemedTests-umbrella.h"; sourceTree = "<group>"; };
+		D9CE659813CC8E2F814E2EB9007CDDA2 /* Pods-telemed-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-telemed-dummy.m"; sourceTree = "<group>"; };
+		DE6FADB2F35A25AB587ADFAE5A9C92BF /* Pods-telemedTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-telemedTests-dummy.m"; sourceTree = "<group>"; };
+		E3A25B5B1F269FB641445205CBBFDEEA /* Pods-telemedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-telemedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB49DE1985E260C54EEC3D20D44E403B /* Pods-telemed-tvOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-telemed-tvOSTests.modulemap"; sourceTree = "<group>"; };
+		EFAE59370551AE64DC6846DC2C7D04D8 /* Pods-telemed-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-telemed-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC8C639E1A1A8EACFD5103844E57AC99 /* Pods-telemed-tvOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-telemed-tvOSTests-Info.plist"; sourceTree = "<group>"; };
+		FFCA2888F106505FBA508BEA39716FF2 /* Pods-telemed-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-telemed-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06E279A8159DE11BA2BE0E8155524AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737AB025EE0040DDDE100429286E3AF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B9442D23E905D6089B6568D6F4A7B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB214D30EC0183BF6CBF032A896E5434 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE5CEA5AC71ACBCEEA8D240704C6C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCCE7BDB3979456500A43C368F7F43B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E522EFE9CE96BD6E3FFBD264AAC93AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5EFA903F37F85ECD266E16CD9F1009 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417EE8FFD2E2F7CC1F41638F188C053A /* Pods-telemed-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				76538B1071B21EEC80CFABF8EDD28AB0 /* Pods-telemed-tvOS.modulemap */,
+				409BC08D5325516E3D678969CD4F4286 /* Pods-telemed-tvOS-acknowledgements.markdown */,
+				FFCA2888F106505FBA508BEA39716FF2 /* Pods-telemed-tvOS-acknowledgements.plist */,
+				4BC8EC759310AE86D95C6C626E33E7B7 /* Pods-telemed-tvOS-dummy.m */,
+				2713C3368E4618C026CC56247E639BBA /* Pods-telemed-tvOS-Info.plist */,
+				781D7C414743234B0E515407381B5FA9 /* Pods-telemed-tvOS-umbrella.h */,
+				0E3E18413BEBB62E8CE5A35BEF4C5421 /* Pods-telemed-tvOS.debug.xcconfig */,
+				6D396D6E1E9FBDD8E13BD0731FE02348 /* Pods-telemed-tvOS.release.xcconfig */,
+			);
+			name = "Pods-telemed-tvOS";
+			path = "Target Support Files/Pods-telemed-tvOS";
+			sourceTree = "<group>";
+		};
+		5BA9F7CE7D4CEC4A68F40D73659886BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F13A2F56FAC6B060DB002364203FE79 /* Pods_telemed.framework */,
+				AD10B0BDAB844A92948C6EA02451C591 /* Pods_telemed_tvOS.framework */,
+				B70DE0DB68B2D794585ED37B7EDF9D4D /* Pods_telemed_tvOSTests.framework */,
+				49AEFCEA352DAE1F4D302D2784125047 /* Pods_telemedTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EF88E65A71A5F1C6AEF21E60545616C /* Pods-telemedTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD7136131270EAD0BEB98CDAC58F7ACD /* Pods-telemedTests.modulemap */,
+				A42FE112ACBF82949F3FCF423121EA80 /* Pods-telemedTests-acknowledgements.markdown */,
+				453EA3F4998D4152CF5E487CF7B232B5 /* Pods-telemedTests-acknowledgements.plist */,
+				DE6FADB2F35A25AB587ADFAE5A9C92BF /* Pods-telemedTests-dummy.m */,
+				A27FD13226F20CF0B7429AAEF46A737F /* Pods-telemedTests-Info.plist */,
+				C26700C67C5AD859640E44B9C109AD04 /* Pods-telemedTests-umbrella.h */,
+				E3A25B5B1F269FB641445205CBBFDEEA /* Pods-telemedTests.debug.xcconfig */,
+				688F5CA5803A2A9655BD25867F4FDDAB /* Pods-telemedTests.release.xcconfig */,
+			);
+			name = "Pods-telemedTests";
+			path = "Target Support Files/Pods-telemedTests";
+			sourceTree = "<group>";
+		};
+		71BF10D9671F60B91D333968CED34958 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		72FC38EC087C7C4684EF5987F89852A2 /* Pods-telemed-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB49DE1985E260C54EEC3D20D44E403B /* Pods-telemed-tvOSTests.modulemap */,
+				EFAE59370551AE64DC6846DC2C7D04D8 /* Pods-telemed-tvOSTests-acknowledgements.markdown */,
+				94D95A9BDBA234E3768059BC857396D6 /* Pods-telemed-tvOSTests-acknowledgements.plist */,
+				43EEFF198A52278185E324798BA60DD7 /* Pods-telemed-tvOSTests-dummy.m */,
+				FC8C639E1A1A8EACFD5103844E57AC99 /* Pods-telemed-tvOSTests-Info.plist */,
+				0B4853FAB64F014CDF477622DA3E7E5E /* Pods-telemed-tvOSTests-umbrella.h */,
+				51D3168C422743693B99BACB56F731A4 /* Pods-telemed-tvOSTests.debug.xcconfig */,
+				A4B878169A80B9152728A472D31AD570 /* Pods-telemed-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-telemed-tvOSTests";
+			path = "Target Support Files/Pods-telemed-tvOSTests";
+			sourceTree = "<group>";
+		};
+		8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A88CC71D6E55F0202A23277A509BCA0 /* iOS */,
+				71BF10D9671F60B91D333968CED34958 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C18199ACFBEECBED15CAFE638980280 /* Pods-telemed */ = {
+			isa = PBXGroup;
+			children = (
+				85EACEA2A36E021FD4847F81E48D89D0 /* Pods-telemed.modulemap */,
+				8F93A4C5E1F770EFC9E59C321118B879 /* Pods-telemed-acknowledgements.markdown */,
+				57781293CDEFB55B1E9C998084E437E1 /* Pods-telemed-acknowledgements.plist */,
+				D9CE659813CC8E2F814E2EB9007CDDA2 /* Pods-telemed-dummy.m */,
+				63C2AD1A444460D12D4FC6E65E1F8A24 /* Pods-telemed-Info.plist */,
+				3D1B17D38FA2CE802A3085A6B608B9B8 /* Pods-telemed-umbrella.h */,
+				2B84A8941DD65A5A12243A42AE44F9C3 /* Pods-telemed.debug.xcconfig */,
+				BC2812FEB41F4BE3C465B6FE0149CF66 /* Pods-telemed.release.xcconfig */,
+			);
+			name = "Pods-telemed";
+			path = "Target Support Files/Pods-telemed";
+			sourceTree = "<group>";
+		};
+		9A88CC71D6E55F0202A23277A509BCA0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A6F53DBA36DEAE3C18C79E4C6229810D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C18199ACFBEECBED15CAFE638980280 /* Pods-telemed */,
+				417EE8FFD2E2F7CC1F41638F188C053A /* Pods-telemed-tvOS */,
+				72FC38EC087C7C4684EF5987F89852A2 /* Pods-telemed-tvOSTests */,
+				5EF88E65A71A5F1C6AEF21E60545616C /* Pods-telemedTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */,
+				5BA9F7CE7D4CEC4A68F40D73659886BA /* Products */,
+				A6F53DBA36DEAE3C18C79E4C6229810D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DEB2B7331AE35F385B3408CBE81404E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD379F035AB569994C7E1BFA6E8537A /* Pods-telemedTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F6159BB2466F2C914D3BB31797E5BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBF788788049BDFB2653E5B3024CB89 /* Pods-telemed-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5ED1F9D8FBAE56264CF2CD15FFCCF56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB5536D7E8F69C20B0984B8B65C4197 /* Pods-telemed-tvOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B556D38A89AF57884A504590622918 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC2D6F302AA6B3E3FDC97EE52E48C9B /* Pods-telemed-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B14A33B73B089C832BCA4BE6E1ABB6F /* Pods-telemed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3653B2FF0A687CBD141CE959A793247 /* Build configuration list for PBXNativeTarget "Pods-telemed" */;
+			buildPhases = (
+				D1B556D38A89AF57884A504590622918 /* Headers */,
+				774285574A8F4030C5440DF6E1F1C3A0 /* Sources */,
+				E522EFE9CE96BD6E3FFBD264AAC93AD2 /* Frameworks */,
+				6BC6F4F54F9E69725293ED2CBBA59FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-telemed";
+			productName = "Pods-telemed";
+			productReference = 2F13A2F56FAC6B060DB002364203FE79 /* Pods_telemed.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		33F1318549E65A083CDE2EA27D98BE7D /* Pods-telemed-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21977185A936E40D845C14C2177C768 /* Build configuration list for PBXNativeTarget "Pods-telemed-tvOSTests" */;
+			buildPhases = (
+				B5ED1F9D8FBAE56264CF2CD15FFCCF56 /* Headers */,
+				3BBF3A75D0496275B4FD7F38510AFF03 /* Sources */,
+				AEE5CEA5AC71ACBCEEA8D240704C6C2A /* Frameworks */,
+				B6739387C77EF3A1BE027159CED8EEBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD2D76130ED1684F0F24397859E287C7 /* PBXTargetDependency */,
+			);
+			name = "Pods-telemed-tvOSTests";
+			productName = "Pods-telemed-tvOSTests";
+			productReference = B70DE0DB68B2D794585ED37B7EDF9D4D /* Pods_telemed_tvOSTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48D1B5A2577CBB935074D05606C3E720 /* Pods-telemedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 129FEFA9BABD487247714808F1BA1957 /* Build configuration list for PBXNativeTarget "Pods-telemedTests" */;
+			buildPhases = (
+				0DEB2B7331AE35F385B3408CBE81404E /* Headers */,
+				3BAA95E53D964C4D040B5CF19A937926 /* Sources */,
+				06E279A8159DE11BA2BE0E8155524AE2 /* Frameworks */,
+				7CFA1DE83B9DF164223A7FADC95701A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B72FFF6F4DB78E782C4BA4C46D9675CE /* PBXTargetDependency */,
+			);
+			name = "Pods-telemedTests";
+			productName = "Pods-telemedTests";
+			productReference = 49AEFCEA352DAE1F4D302D2784125047 /* Pods_telemedTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A82500D9030B56B1F3B95BE2437D2925 /* Pods-telemed-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8AC547EFF6FA55B4348BF08B211D7B /* Build configuration list for PBXNativeTarget "Pods-telemed-tvOS" */;
+			buildPhases = (
+				59F6159BB2466F2C914D3BB31797E5BB /* Headers */,
+				159020BFD1D7509B3D625F1802EDAC65 /* Sources */,
+				55B9442D23E905D6089B6568D6F4A7B9 /* Frameworks */,
+				636ABBFB673A8552BEEE3729AE518EFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-telemed-tvOS";
+			productName = "Pods-telemed-tvOS";
+			productReference = AD10B0BDAB844A92948C6EA02451C591 /* Pods_telemed_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5BA9F7CE7D4CEC4A68F40D73659886BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B14A33B73B089C832BCA4BE6E1ABB6F /* Pods-telemed */,
+				A82500D9030B56B1F3B95BE2437D2925 /* Pods-telemed-tvOS */,
+				33F1318549E65A083CDE2EA27D98BE7D /* Pods-telemed-tvOSTests */,
+				48D1B5A2577CBB935074D05606C3E720 /* Pods-telemedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		636ABBFB673A8552BEEE3729AE518EFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC6F4F54F9E69725293ED2CBBA59FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA1DE83B9DF164223A7FADC95701A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6739387C77EF3A1BE027159CED8EEBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		159020BFD1D7509B3D625F1802EDAC65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5991C0AFFE5BF1B5EC3D716895BB5A /* Pods-telemed-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BAA95E53D964C4D040B5CF19A937926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC76766AD944330893A90D4FD6695044 /* Pods-telemedTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BBF3A75D0496275B4FD7F38510AFF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164268BC47AB1E9717A58D5466BC045E /* Pods-telemed-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774285574A8F4030C5440DF6E1F1C3A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD725998C9567A627F9263415FCC99D5 /* Pods-telemed-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B72FFF6F4DB78E782C4BA4C46D9675CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-telemed";
+			target = 1B14A33B73B089C832BCA4BE6E1ABB6F /* Pods-telemed */;
+			targetProxy = A6BC3E5153525E2A154367D14F6B1EBF /* PBXContainerItemProxy */;
+		};
+		FD2D76130ED1684F0F24397859E287C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-telemed-tvOS";
+			target = A82500D9030B56B1F3B95BE2437D2925 /* Pods-telemed-tvOS */;
+			targetProxy = 4CDF071959130E17A2A7B63BE786EA41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02CE90419F18BC7515BD367750C997F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D3168C422743693B99BACB56F731A4 /* Pods-telemed-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-telemed-tvOSTests/Pods-telemed-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-telemed-tvOSTests/Pods-telemed-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27A7720B8F2529AC3FAAEBB5C3908835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3E18413BEBB62E8CE5A35BEF4C5421 /* Pods-telemed-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-telemed-tvOS/Pods-telemed-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-telemed-tvOS/Pods-telemed-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2EB8829BC7ABD1828A88F764446AFCDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2812FEB41F4BE3C465B6FE0149CF66 /* Pods-telemed.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-telemed/Pods-telemed-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-telemed/Pods-telemed.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B2924A7E2D9167E6DC8F0722AFD834C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A25B5B1F269FB641445205CBBFDEEA /* Pods-telemedTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-telemedTests/Pods-telemedTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-telemedTests/Pods-telemedTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FEC80404873B3CB904E979C0D885788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D396D6E1E9FBDD8E13BD0731FE02348 /* Pods-telemed-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-telemed-tvOS/Pods-telemed-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-telemed-tvOS/Pods-telemed-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68F07807C8D62F2D76C744A41F3D874D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		719E0FB24A005CFEC9E7D2068BF17348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B878169A80B9152728A472D31AD570 /* Pods-telemed-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-telemed-tvOSTests/Pods-telemed-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-telemed-tvOSTests/Pods-telemed-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77944FF74BD293D466087E6DCC20C44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 688F5CA5803A2A9655BD25867F4FDDAB /* Pods-telemedTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-telemedTests/Pods-telemedTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-telemedTests/Pods-telemedTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E025ACDE374B0E89793492E351682FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B84A8941DD65A5A12243A42AE44F9C3 /* Pods-telemed.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-telemed/Pods-telemed-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-telemed/Pods-telemed.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		129FEFA9BABD487247714808F1BA1957 /* Build configuration list for PBXNativeTarget "Pods-telemedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2924A7E2D9167E6DC8F0722AFD834C /* Debug */,
+				77944FF74BD293D466087E6DCC20C44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8AC547EFF6FA55B4348BF08B211D7B /* Build configuration list for PBXNativeTarget "Pods-telemed-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A7720B8F2529AC3FAAEBB5C3908835 /* Debug */,
+				5FEC80404873B3CB904E979C0D885788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */,
+				68F07807C8D62F2D76C744A41F3D874D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21977185A936E40D845C14C2177C768 /* Build configuration list for PBXNativeTarget "Pods-telemed-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CE90419F18BC7515BD367750C997F8 /* Debug */,
+				719E0FB24A005CFEC9E7D2068BF17348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3653B2FF0A687CBD141CE959A793247 /* Build configuration list for PBXNativeTarget "Pods-telemed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E025ACDE374B0E89793492E351682FED /* Debug */,
+				2EB8829BC7ABD1828A88F764446AFCDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
