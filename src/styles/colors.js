@@ -1,5 +1,6 @@
 export const colors = {
-  WHITE: '#fff',  
+  WHITE: '#fff',
+  WHITE_GREY: '#DFDFDF';
   TRANSPARENT_WHITE: 'rgba(255,255,255,0.4)',
   BLACK: '#000',
   PRIMARY_COLOR: '#1e645a',
