@@ -1,4 +1,4 @@
-package com.telemed;
+package br.com.mundodevops.telemedicina;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
