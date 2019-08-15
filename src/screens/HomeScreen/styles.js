@@ -28,7 +28,7 @@ export const ImageContainer = styled.View`
 export const SearchContainer = styled.View`
   display: flex;
   width: ${metrics.SCREEN_WIDTH * 0.8};
-  height: ;
+  /* height: ; */
   align-items: center;
   justify-content: center;
   background-color: ${colors.SECONDARY_COLOR};
