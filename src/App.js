@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { SafeAreaView } from 'react-navigation';
+
 import { AppNavigator, NavigationService } from './routes';
 
 console.disableYellowBox = true;

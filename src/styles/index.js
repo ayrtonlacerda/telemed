@@ -1,3 +1,5 @@
-export * from './colors';
-export * from './metrics';
-export * from './fonts';
+import colors from './colors';
+import metrics from './metrics';
+import fonts from './fonts';
+
+export { colors, metrics, fonts };

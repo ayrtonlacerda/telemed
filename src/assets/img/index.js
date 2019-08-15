@@ -14,4 +14,4 @@ const Imgs = {
   Triangle,
 };
 
-export { Imgs };
+export default Imgs;

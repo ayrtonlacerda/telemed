@@ -1,6 +1,6 @@
 import { createStackNavigator } from 'react-navigation';
 
-import { AuthScreen } from '../../screens';
+import { AuthenticationScreen as AuthScreen } from '../../screens';
 
 const AuthNavigator = createStackNavigator(
   {
@@ -13,4 +13,4 @@ const AuthNavigator = createStackNavigator(
   }
 );
 
-export { AuthNavigator };
+export default AuthNavigator;

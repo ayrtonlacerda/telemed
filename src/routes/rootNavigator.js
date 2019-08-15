@@ -1,6 +1,6 @@
 import { createAppContainer, createSwitchNavigator } from 'react-navigation';
-import { AuthNavigator } from './Navigation/AuthNavigator';
-import { MainNavigator } from './Navigation/MainNavigator';
+import AuthNavigator from './Navigation/AuthNavigator';
+import MainNavigator from './Navigation/MainNavigator';
 // navigator padrao de modulos
 const Navigator = createSwitchNavigator(
   {
@@ -11,4 +11,4 @@ const Navigator = createSwitchNavigator(
     initialRouteName: 'MainNavigator',
   }
 );
-export const AppNavigator = createAppContainer(Navigator);
+export default createAppContainer(Navigator);

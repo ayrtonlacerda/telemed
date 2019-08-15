@@ -1,19 +1,24 @@
 // full component
 import React, { Component } from 'react';
+
 import { Container, Title } from './styles';
 import { Header } from '../../components';
 
 class ScheduleScreen extends Component {
-  state = {};
+  constructor(props) {
+    super(props);
+
+    this.state = {};
+  }
 
   render() {
     return (
       <Container>
-        <Header title="Agendamento" arrowBack />
+        <Header title='Agendamento' arrowBack />
         <Title>Schedule</Title>
       </Container>
     );
   }
 }
 
-export { ScheduleScreen };
+export default ScheduleScreen;

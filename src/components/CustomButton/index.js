@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Description } from './styles';
 import Icons from 'react-native-vector-icons/MaterialIcons';
+
+import { Container, Description } from './styles';
 
 const Button = props => {
   const { description, press } = props;
@@ -11,4 +12,4 @@ const Button = props => {
   );
 };
 
-export { Button };
+export default Button;

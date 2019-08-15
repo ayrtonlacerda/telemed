@@ -4,13 +4,17 @@ import { ScrollView } from 'react-native';
 import { Contain, ContainImage, ImageLogo, Main, Text } from './styles';
 import { TopTabsMenu } from '../../components';
 import { Imgs } from '../../assets';
-import { Login } from './LoginScreen';
-import { Register } from './RegisterScreen';
+import Login from './LoginScreen';
+import Register from './RegisterScreen';
 
 class AuthScreen extends Component {
-  state = {
-    viewLogin: true,
-  };
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      viewLogin: true,
+    };
+  }
 
   render() {
     const { viewLogin } = this.state;
@@ -18,7 +22,7 @@ class AuthScreen extends Component {
       <ScrollView centerContent showsHorizontalScrollIndicator={false}>
         <Contain>
           <ContainImage>
-            <ImageLogo source={Imgs.LogoGreen} resizeMode="contain" />
+            <ImageLogo source={Imgs.LogoGreen} resizeMode='contain' />
             {viewLogin ? (
               <Text>Entre com seu e-mail e senha</Text>
             ) : (
@@ -38,4 +42,4 @@ class AuthScreen extends Component {
   }
 }
 
-export { AuthScreen };
+export default AuthScreen;

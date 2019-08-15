@@ -1,4 +1,4 @@
-export const fonts = {
+export default {
   SMALL: 14,
   EXTRA_SMALL: 12,
   MEDIUM: 16,

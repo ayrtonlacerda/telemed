@@ -1,5 +1,6 @@
 import styled from 'styled-components/native';
 import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
+
 import { metrics, colors, fonts } from '../../styles';
 
 export const Container = styled.View`

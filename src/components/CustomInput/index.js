@@ -1,13 +1,14 @@
 import React from 'react';
-import { Container, Icon, TextInput, CunstonIcons } from './styles';
 import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
+
+import { Container, Icon, TextInput, CunstonIcons } from './styles';
 
 const Input = props => {
   const { image, nameIcon } = props;
   return (
     <Container>
       {image ? (
-        <Icon source={image} resizeMode="contain" />
+        <Icon source={image} resizeMode='contain' />
       ) : (
         <CunstonIcons name={nameIcon} size={28} />
       )}
@@ -16,7 +17,7 @@ const Input = props => {
   );
 };
 
-export { Input };
+export default Input;
 
 /* 
 se caso receber  image ele usa a

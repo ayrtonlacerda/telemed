@@ -1,20 +1,24 @@
 // full component
 import React, { Component } from 'react';
 import { StatusBar } from 'react-native';
-import { colors } from '../../styles';
 
-import { Container, MainContainer, ImageContainer } from './styles';
+import { colors } from '../../styles';
+import { Container, MainContainer, ImageContainer, SearchContainer } from './styles';
 
 class HomeScreen extends Component {
-  state = {};
+  constructor(props) {
+    super(props);
+
+    this.state = {};
+  }
 
   render() {
     return (
       <Container>
-        <StatusBar backgroundColor={colors.SECONDARY_COLOR} barStyle="light-content" />
+        <StatusBar backgroundColor={colors.SECONDARY_COLOR} barStyle='light-content' />
         <MainContainer>
           <ImageContainer>
-            <SearchContainer></SearchContainer>
+            <SearchContainer />
           </ImageContainer>
         </MainContainer>
       </Container>
@@ -22,4 +26,4 @@ class HomeScreen extends Component {
   }
 }
 
-export { HomeScreen };
+export default HomeScreen;

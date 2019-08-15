@@ -1,7 +1,8 @@
 import React from 'react';
 import { createBottomTabNavigator } from 'react-navigation';
-import { colors } from '../../styles';
 import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
+
+import { colors } from '../../styles';
 import { HomeScreen, SearchScreen, ProfileScreen, ScheduleScreen } from '../../screens';
 
 const MainNavigator = createBottomTabNavigator(
@@ -59,4 +60,4 @@ const MainNavigator = createBottomTabNavigator(
   }
 );
 
-export { MainNavigator };
+export default MainNavigator;

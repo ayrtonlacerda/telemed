@@ -1,2 +1,2 @@
-export * from './rootNavigator';
-export * from './navigationService';
+export { default as AppNavigator } from './rootNavigator';
+export { default as NavigationService } from './navigationService';

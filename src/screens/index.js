@@ -1,5 +1,7 @@
-export * from './AuthenticationScreen';
-export * from './HomeScreen';
-export * from './SearchScreen';
-export * from './ScheduleScreen';
-export * from './ProfileSreen';
+import AuthenticationScreen from './AuthenticationScreen';
+import HomeScreen from './HomeScreen';
+import SearchScreen from './SearchScreen';
+import ScheduleScreen from './ScheduleScreen';
+import ProfileScreen from './ProfileScreen';
+
+export { AuthenticationScreen, HomeScreen, SearchScreen, ScheduleScreen, ProfileScreen };

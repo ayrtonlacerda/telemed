@@ -4,7 +4,11 @@ import React, { Component } from 'react';
 import { Container, Title } from './styles';
 
 class ProfileScreen extends Component {
-  state = {};
+  constructor(props) {
+    super(props);
+
+    this.state = {};
+  }
 
   render() {
     return (
@@ -15,4 +19,4 @@ class ProfileScreen extends Component {
   }
 }
 
-export { ProfileScreen };
+export default ProfileScreen;

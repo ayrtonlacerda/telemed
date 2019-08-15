@@ -1,4 +1,4 @@
-export const colors = {
+export default {
   WHITE: '#fff',
   WHITE_GREY: '#DFDFDF',
   TRANSPARENT_WHITE: 'rgba(255,255,255,0.4)',
