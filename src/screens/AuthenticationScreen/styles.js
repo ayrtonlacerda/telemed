@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+
 import { metrics } from '../../styles';
 
 export const Contain = styled.View`
@@ -27,6 +28,6 @@ export const Main = styled.View`
 export const ImageLogo = styled.Image`
   width: ${metrics.SCREEN_WIDTH * 0.5};
   height: ${metrics.SCREEN_WIDTH * 0.5};
-`
+`;
 
 export const Text = styled.Text``;

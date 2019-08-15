@@ -1,4 +1,4 @@
-export * from './TopTabsMenu';
-export * from './CustomInput';
-export * from './CustomButton';
-export * from './CustomHeader';
+export { default as TopTabsMenu } from './TopTabsMenu';
+export { default as Input } from './CustomInput';
+export { default as Button } from './CustomButton';
+export { default as Header } from './CustomHeader';

@@ -20,7 +20,7 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-project.xcworkspace
+telemed.xcworkspace
 
 # Android/IntelliJ
 #
@@ -54,3 +54,9 @@ buck-out/
 
 # Bundle artifact
 *.jsbundle
+
+# VSCode
+.vscode
+
+# Pods
+Pods/

@@ -1,6 +1,6 @@
-export const colors = {
+export default {
   WHITE: '#fff',
-  WHITE_GREY: '#DFDFDF';
+  WHITE_GREY: '#DFDFDF',
   TRANSPARENT_WHITE: 'rgba(255,255,255,0.4)',
   BLACK: '#000',
   PRIMARY_COLOR: '#1e645a',
@@ -13,4 +13,4 @@ export const colors = {
   RED: 'red',
   BACKGROUND_SHADOW: '#fafafa',
   BACKGROUND_INTERNAL: '#ecf0f1',
-}
+};
