@@ -14,4 +14,4 @@ export const metrics = {
   margin_small: 6,
   margin_mediun: 10,
   margin_larger: 14,
-}
+};

@@ -9,7 +9,7 @@ const Imgs = {
   LogoGreen,
   LogoWhite,
   PasswordReset,
-  Terms
-}
+  Terms,
+};
 
 export { Imgs };

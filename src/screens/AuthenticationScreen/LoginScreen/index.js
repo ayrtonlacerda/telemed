@@ -9,36 +9,33 @@ class Login extends Component {
   state = {
     email: null,
     password: null,
-  }
+  };
 
   render() {
     const { email, password } = this.state;
     return (
       <Container>
-        <Input 
-          nameIcon="person-outline"
-          placeholder="example@example.com"
+        <Input
+          nameIcon='person-outline'
+          placeholder='example@example.com'
           autoCorrect={false}
-          autoCapitalize="none"
-          selectionColor="white"          
+          autoCapitalize='none'
+          selectionColor='white'
           value={email}
           onChangeText={text => this.setState({ email: text })}
         />
-        <Input 
-          nameIcon="lock-outline"
-          placeholder="••••••••••"
+        <Input
+          nameIcon='lock-outline'
+          placeholder='••••••••••'
           secureTextEntry
           autoCorrect={false}
-          autoCapitalize="none"
-          selectionColor="white"
+          autoCapitalize='none'
+          selectionColor='white'
           value={password}
           onChangeText={text => this.setState({ password: text })}
         />
-        <Button 
-          description="ENTRAR"
-        />
+        <Button description='ENTRAR' />
       </Container>
-
     );
   }
 }

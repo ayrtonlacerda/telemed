@@ -1,2 +1,2 @@
 export * from './rootNavigator';
-export * from './navigationService'
+export * from './navigationService';

@@ -1,12 +1,7 @@
 import React from 'react';
-import {
-  Container,
-  ButtonContainer,
-  TextButton,
-} from './styles';
+import { Container, ButtonContainer, TextButton } from './styles';
 
-
-const TopTabsMenu = (props) => {
+const TopTabsMenu = props => {
   return (
     <Container>
       <ButtonContainer onPress={props.active ? null : props.onPressFunc}>
@@ -14,10 +9,10 @@ const TopTabsMenu = (props) => {
       </ButtonContainer>
       <ButtonContainer onPress={!props.active ? null : props.onPressFunc}>
         <TextButton active={!props.active}>Cadastre-se</TextButton>
-      </ButtonContainer>      
+      </ButtonContainer>
     </Container>
   );
-}
+};
 
 export { TopTabsMenu };
 
