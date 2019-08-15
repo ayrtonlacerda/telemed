@@ -1,5 +1,6 @@
 // full component
 import React, { Component } from 'react';
+import { withNavigation } from 'react-navigation';
 import { Container } from './styles';
 
 import { Input, Button } from '../../../components';
@@ -13,6 +14,7 @@ class Login extends Component {
 
   render() {
     const { email, password } = this.state;
+    const { navigation } = this.props;
     return (
       <Container>
         <Input 
@@ -34,7 +36,8 @@ class Login extends Component {
           value={password}
           onChangeText={text => this.setState({ password: text })}
         />
-        <Button 
+        <Button
+          press={() => navigation.navigate('MainNavigator')}
           description="ENTRAR"
         />
       </Container>
@@ -43,4 +46,5 @@ class Login extends Component {
   }
 }
 
-export { Login };
+const LoginNavigation = withNavigation(Login);
+export { LoginNavigation as Login };

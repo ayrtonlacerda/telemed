@@ -29,5 +29,4 @@ export const Triangle = styled.Image`
   top: 55;
   width: 25;
   height: 25;
-  color: ${colors.PRIMARY_COLOR};
 `

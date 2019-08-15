@@ -6,9 +6,9 @@ import {
 import Icons from 'react-native-vector-icons/MaterialIcons';
 
 const Button = (props) => {
-  const { description } = props;
+  const { description, press } = props;
   return (
-    <Container>
+    <Container onPress={press}>      
       <Description>{description}</Description> 
     </Container>
   );
